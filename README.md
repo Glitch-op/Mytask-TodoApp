@@ -1,12 +1,43 @@
-# React + Vite
+# 📝 MyTask - Responsive Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**MyTask** is a simple, user-friendly, and responsive Todo application built using **ReactJS**. It helps users manage their daily tasks efficiently with features like adding, editing, deleting, and marking todos as complete. The application is styled with **Tailwind CSS** and uses **localStorage** to persist data between sessions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Add new tasks with a character validation
+- ✏️ Edit existing tasks seamlessly
+- 🗑️ Delete tasks instantly
+- ✔️ Mark tasks as completed or uncompleted
+- 🔍 Filter to show/hide completed tasks
+- 💾 Persistent data using localStorage
+- 📱 Fully responsive layout (Mobile/Tablet/Desktop)
+- 🎨 Clean and modern UI with Tailwind CSS
+- 🧩 Icon support via React Icons (Edit/Delete)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📷 Preview
+
+![Screenshot 2025-06-20 204632](https://github.com/user-attachments/assets/7206677d-d3b5-4449-89a5-c287ce86e056)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: ReactJS (Hooks: `useState`, `useEffect`)
+- **Styling**: Tailwind CSS
+- **Icons**: React Icons (`FaRegEdit`, `AiFillDelete`)
+- **Unique ID**: `uuid` for unique task IDs
+- **Storage**: localStorage for persistent task saving
+
+---
+
+## 📂 Folder Structure (Simplified)
+- src/
+- ├── components/
+- │ └── Navbar.jsx
+- ├── App.jsx
+- └── index.js
+
