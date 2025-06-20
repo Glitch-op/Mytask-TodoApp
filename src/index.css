@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+ul{
+  display:flex;
+  align-items: center;
+}
+
+li{
+  list-style: none;
+}
+
+body{
+  background-color: rgba(30, 81, 116, 0.521);
+}
